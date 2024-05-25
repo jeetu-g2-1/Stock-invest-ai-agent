@@ -5,7 +5,7 @@ import requests
 agent = Agent()
 
 def get_income():
-    url = 'https://www.alphavantage.co/query?function=INCOME_STATEMENT&symbol=IBM&apikey=SEYKSGX9UW0OOVRN'
+    url = 'https://www.alphavantage.co/query?function=INCOME_STATEMENT&symbol=IBM&apikey=_PUT_YOUR_KEY_'
     r = requests.get(url)
     data = r.json()
     netinc=data['annualReports'][0]['netIncome']
