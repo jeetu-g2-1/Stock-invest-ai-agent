@@ -25,3 +25,7 @@ Trading-Ai-agent/<br>
     ├── test_data_analysis.py<br>
     ├── test_data_visualization.py<br>
     ├── test_risk_assessment.py<br>
+
+> Output generated on the following factor
+> 1. Based on amount user wanted to  investing on stocks
+> 2. Output contains list of companies.
