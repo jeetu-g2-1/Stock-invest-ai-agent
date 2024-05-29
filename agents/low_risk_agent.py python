@@ -1,0 +1,5 @@
+class LowRiskAgent:
+    def recommend(self, investment_amount, company_data):
+        recommendations = {}
+        # Low-risk investment logic
+        return recommendations
